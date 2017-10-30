@@ -1,0 +1,21 @@
+{
+    "name": "readyplanet/shop-api",
+    "version": "0.1.0",
+    "description": "Shop API",
+    "authors": [
+        {
+            "name": "kittipong",
+            "email": "kittipong@readyplanet.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ProductManagementAPI\\": "src/"
+        }
+    },
+    "require": {
+        "slim/slim": "^3.8",
+        "phpfastcache/phpfastcache": "^6.0",
+        "predis/predis": "^1.1"
+    }
+}
